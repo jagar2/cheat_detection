@@ -1,9 +1,10 @@
 #!/bin/bash
 #SBATCH -N 2
 #SBATCH --ntasks-per-node 2
-#SBATCH -t 00:03:00
+#SBATCH -t 03:03:00
 #SBATCH --mem=1GB
 #SBATCH --array=1-2
+#SBATCH --account=eng131adminprj
 
 ### NOTE: you must know the number of files at the time of sbatch
 
